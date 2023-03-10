@@ -1,5 +1,5 @@
-scene_path: '/home/yons/8TB/data/data/renderData.npz'
-cnn_path: '/home/yons/8TB/data/data/cnn.pth'
+scene_path: '/data/zhongzd/git-project/Scalable-Neural-Indoor-Scene-Rendering/Datasets/data_snisr/renderData.npz'
+cnn_path: '/data/zhongzd/git-project/Scalable-Neural-Indoor-Scene-Rendering/Datasets/data_snisr/cnn.pth'
 # scene_path: '/home/yons/8TB/data/coffee/renderData.npz'
 # cnn_path: '/home/yons/8TB/data/coffee/logs_unet/2022-01-25-17-50/epoch-230.pth'
 height: 720

@@ -5,3 +5,4 @@ rendering/src/build/
 *.pyc 
 *.ini
 .vscode 
+data_snisr

@@ -12,7 +12,8 @@ dependency_dir = '/'.join(os.path.join(os.path.split(os.path.abspath(__file__))[
 
 headers = [os.path.join(os.path.split(os.path.abspath(__file__))[0], 'include'),
            os.path.join(dependency_dir, 'imgui'),
-           os.path.join(dependency_dir, 'imgui/backends')]
+           os.path.join(dependency_dir, 'imgui/backends'),
+           '/data/zhongzd/git-project/Scalable-Neural-Indoor-Scene-Rendering/dependencies/glfw/include']
 
 
 ui_src = list(glob(os.path.join(dependency_dir,'imgui/*.cpp'))) + \
@@ -35,7 +36,8 @@ ext_modules = [
     ] + ui_src,
     libraries = ['GL', 'GLU', 'glfw3'],
     extra_compile_args= {'nvcc': ["-Xptxas", "-v"]},
-    include_dirs=headers),
+    include_dirs=headers,
+    library_dirs = ['/data/zhongzd/git-project/Scalable-Neural-Indoor-Scene-Rendering/dependencies/glfw/build/src']),
 ]
 
 
