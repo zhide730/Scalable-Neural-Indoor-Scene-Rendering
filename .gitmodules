@@ -1,0 +1,15 @@
+[submodule "dependencies/cnpy"]
+	path = dependencies/cnpy
+	url = git@github.com:rogersce/cnpy.git
+[submodule "dependencies/imgui"]
+	path = dependencies/imgui
+	url = git@github.com:ocornut/imgui.git
+[submodule "dependencies/glfw"]
+	path = dependencies/glfw
+	url = git@github.com:glfw/glfw.git
+[submodule "dependencies/tinyply"]
+	path = dependencies/tinyply
+	url = git@github.com:ddiakopoulos/tinyply.git
+[submodule "dependencies/tqdm.cpp"]
+	path = dependencies/tqdm.cpp
+	url = git@github.com:tqdm/tqdm.cpp.git
