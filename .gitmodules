@@ -13,3 +13,6 @@
 [submodule "dependencies/tqdm.cpp"]
 	path = dependencies/tqdm.cpp
 	url = git@github.com:tqdm/tqdm.cpp.git
+[submodule "dependencies/torch2trt"]
+	path = dependencies/torch2trt
+	url = git@github.com:NVIDIA-AI-IOT/torch2trt.git
